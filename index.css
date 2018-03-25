@@ -1,0 +1,227 @@
+body{
+background-image:url(./img/fon.jpg);
+ background-size: cover;
+ }
+#zagol{
+  text-align:center;
+  color:DarkRed;
+  font-size: 60px;
+  height:120px;
+  width:100%;
+  background: #7fffd4;
+  font-weight:bold;
+  }
+.xx{
+  height:120px;
+  width:120px;
+}
+
+div{
+  height:70px;
+  width:350px;
+  border:1px solid Black;
+  background-image: linear-gradient( #4b0082,#ff00ff,#7fffd4,#7fffd4,#ff00ff,#000080);
+  margin-top:13px;
+  margin-bottom:13px;
+    }
+p{
+ width:1800px;
+height:250px;
+font-size:25px;
+  }
+img{
+  height:200px;
+  width:300px;
+  margin-top:0px;
+  float:left;
+  
+}
+
+#zag{
+background: #7fffd4;
+margin-top:17px;
+}
+#zag2{
+background: #7fffd4;
+margin-top:19px;
+}
+
+main{
+ height:200px;
+  width:210px; 
+}
+button{
+   height:70px;
+  width:210px;
+  background-color:red;
+  border-radius:35%;
+  margin:5px;
+  font-size:28px;
+}
+section{
+  display:inline-block;
+      border:2px solid black;
+  background-color:Aquamarine;
+  border-radius:10%;
+  font-size:25px;
+ }
+nav{
+  display:inline-block;
+      border:2px solid black;
+  background-color:Aquamarine;
+  border-radius:10%;
+  font-size:25px;
+    }
+#bashny{
+  background-color:Aqua;
+}
+#voron{
+  background-color:MediumSpringGreen;
+}
+
+#riba{
+  background-color:pink;
+}
+#k{
+  background-color:Fuchsia;
+}
+#ptizza{
+  background-color:Yellow;
+}
+#bik{
+  background-color:lightBlue;
+}
+#clas{
+  background-color:LightSalmon;
+}
+#riba{
+  background-color:SPlum;
+}
+
+#lyg{
+  background-color:MediumSlateBlue;
+}
+h1{
+  color:red;
+}
+h2{
+  color:red;
+}
+.hidden{
+  display: none;
+}
+.hidden3{
+   display: none;
+}
+.blue{
+ color:blue; 
+  font-weight:bold;
+  font-size:20px;
+  text-align:right;
+}
+.blue_bukw{
+ color:blue; 
+  font-weight:bold;
+  font-size:20px;
+  text-align:right;
+}
+.blue_voron{
+ color:blue; 
+  font-weight:bold;
+  font-size:20px;
+  text-align:right;
+}
+.blue_bash{
+ color:blue; 
+  font-weight:bold;
+  font-size:20px;
+  text-align:right;
+}
+.blue_lyg{
+ color:blue; 
+  font-weight:bold;
+  font-size:20px;
+  text-align:right;
+}{
+ color:blue; 
+  font-weight:bold;
+  font-size:20px;
+  text-align:right;
+}
+.red{
+ color:red; 
+  font-weight:bold;
+  font-size:28px;
+  }
+.blue{
+  position:relative;
+  margin:250px;
+}
+.blue:hover::after{
+  content: "Вспомните свойства воды";
+  position: absolute;
+ right:-390px;
+  top: 0px;
+   color: blue;
+  background-color:yellow;
+  padding: 10px;
+  font-size:25px;
+}
+.blue_bukw{
+  position:relative;
+  margin:250px;
+}
+.blue_bukw:hover::after{
+  content: "Последовательность чего-то очень вам знакомого)))" ;
+  position: absolute;
+ right:-750px;
+  top: 0px;
+   color: blue;
+  background-color:yellow;
+  padding: 10px;
+  font-size:25px;
+}
+.blue_voron{
+  position:relative;
+  margin:250px;
+}
+.blue_voron:hover::after{
+  content: "Загадка не на логику, а на хитрость)";
+  position: absolute;
+ right:-700px;
+  top: 0px;
+   color: blue;
+  background-color:yellow;
+  padding: 10px;
+  font-size:25px;
+}
+.blue_bash{
+  position:relative;
+  margin:250px;
+}
+.blue_bash:hover::after{
+  content: "Что-то точно неразрывно связанное с башней";
+  position: absolute;
+ right:-700px;
+  top: 0px;
+   color: blue;
+  background-color:yellow;
+  padding: 10px;
+  font-size:25px;
+}
+.blue_lyg{
+  position:relative;
+  margin:250px;
+}
+.blue_lyg:hover::after{
+  content: "Эти животные умеют говорить! Спросите их!";
+  position: absolute;
+ right:-700px;
+  top: 0px;
+   color: blue;
+  background-color:yellow;
+  padding: 10px;
+  font-size:25px;
+ <script src="index.js"></script>
+	</body>
+</html>
